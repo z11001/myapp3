@@ -1,7 +1,8 @@
 Myapp3::Application.routes.draw do
+
   resources :addresses
   resources :users 
-
+  resources :spots
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
