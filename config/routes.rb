@@ -1,6 +1,11 @@
 Myapp3::Application.routes.draw do
+  get "menu/index"
+  get "spot_search/index"
+  get "spot_regist/index"
+
   resources :addresses
   resources :users 
+  resources :menu
 
 
   # The priority is based upon order of creation:
