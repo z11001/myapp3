@@ -1,0 +1,14 @@
+<h1>検索</h1>
+
+<%= form_tag spots_path do %>
+  <table>
+    <tr>
+      <td><%= label_tag "スポット検索" %></td>
+      <td><%= text_field_tag :spot_str %></td>
+    </tr> 
+
+    <tr>
+      <td><%= submit_tag "検索" %></td>
+    </tr>
+  </table>
+<% end %>

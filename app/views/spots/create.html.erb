@@ -1,0 +1,19 @@
+<h1>検索結果</h1>
+
+<table>
+  <tr>
+    <th>spotname</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @spots.each do |spot| %>
+  <tr>
+    <td><%= spot.spotname %></td>
+    <td><%= link_to 'メッセージを送ってみる', '/spots/show' %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
