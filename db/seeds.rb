@@ -4,4 +4,3 @@
 # Examples:
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-   Spots.create(spot_id: '0001', user_id: '1001')

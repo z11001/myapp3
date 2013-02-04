@@ -2,5 +2,5 @@
 <p>
 ログイン成功しました。
 </p>
-
+<%= link_to 'メニューへ遷移', :controller => 'menu', :action => 'index' %>
 <%= link_to 'ログアウトする', user_path(session[:user_id]), :confirm => 'ログアウトしますか？', :method => :delete %>
